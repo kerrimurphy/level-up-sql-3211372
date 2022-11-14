@@ -4,4 +4,7 @@
 -- Sort the list of results by last name.
 
 
-a
+
+SELECT firstname, lastname, email 
+FROM customers
+ORDER BY lastname
