@@ -15,10 +15,5 @@ INNER JOIN Customers
 ON Reservations.CustomerId = Customers.CustomerId
 WHERE Customers.FirstName = 'Norby'
 
-SELECT * FROM Customers
-INNER JOIN Reservations
-ON Customers.CustomerId = Reservations.CustomerID
-WHERE Customers.FirstName = 'Norby'
-
 DELETE FROM Reservations
 where reservationid = 2000
